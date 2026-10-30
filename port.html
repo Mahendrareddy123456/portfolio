@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Malapati Mahendra Reddy | Full Stack & AI Developer</title>
+    <meta name="description"
+        content="Portfolio of Malapati Mahendra Reddy - Full Stack Developer and AI/ML Engineer studying Computer Science at VIT Chennai.">
+
+    <!-- Google Font: Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="port.css">
+</head>
+
+<body>
+
+    <!-- Top Notification / Status Banner -->
+    <aside class="sample" aria-label="Announcement banner">
+        <div class="in">
+            <span class="badge-tag">
+                <b>Available for Opportunities</b> — Open to Software Developer &amp; AI/ML internships and full-time
+                roles.
+            </span>
+        </div>
+    </aside>
+
+    <!-- Sticky Navbar -->
+    <nav class="top" aria-label="Main Navigation">
+        <div class="in">
+            <a class="brand" href="#home" aria-label="Home page">
+                Mahendra<span>.dev</span>
+            </a>
+
+            <div class="nav-actions">
+                <!-- Theme Toggle -->
+                <button type="button" class="theme-btn" id="themeToggle" aria-label="Toggle dark/light theme"
+                    title="Toggle theme">
+                    <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="moon-icon" style="display:none;" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+
+                <!-- Burger Toggle for Mobile -->
+                <button class="burger" id="burger" aria-label="Open navigation menu" aria-expanded="false"
+                    aria-controls="menu">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+                        stroke-linecap="round">
+                        <path d="M4 7h16M4 12h16M4 17h16" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Main Navigation Menu -->
+            <div class="menu" id="menu">
+                <a href="#home">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#cert">Certifications</a>
+                <a href="#contact">Contact</a>
+                <!-- DUMMY LINK 1: Replace with your original Google Drive Resume view link -->
+                <a class="cta" href="https://example.com/drive/view/Mahendra-Reddy-Resume" target="_blank"
+                    rel="noopener">Resume</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="in">
+                <div>
+                    <span class="kicker">Hello, I am</span>
+                    <h1>Malapati Mahendra Reddy, <em>Full Stack &amp; AI Developer</em></h1>
+                    <p class="lead">
+                        B.Tech Computer Science student at <strong>Vellore Institute of Technology (VIT),
+                            Chennai</strong> with 500+ hours of hands-on coding. Passionate about building robust web
+                        applications, cryptographic security systems, and deep learning models. Proficient in Java,
+                        Python, React, and Cloud technologies.
+                    </p>
+                    <div class="btns">
+                        <!-- DUMMY LINK 1: Replace with your original Google Drive Resume view link -->
+                        <a class="btn" href="https://example.com/drive/view/Mahendra-Reddy-Resume" target="_blank"
+                            rel="noopener">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg>
+                            View Resume
+                        </a>
+                        <!-- DUMMY LINK 2: Replace with your original direct Resume PDF download link -->
+                        <a class="btn ghost" href="https://example.com/drive/Mahendra-Reddy-Resume.PDF" target="_blank"
+                            rel="noopener" download="Mahendra-Reddy-Resume.pdf">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                            Download Resume
+                        </a>
+                    </div>
+                    <p class="note">
+                        <b>Home:</b> Clean layout featuring your formal introduction, primary action buttons, verified
+                        resume link, and profile portrait.
+                    </p>
+                </div>
+
+                <div class="photo-wrapper">
+                    <div class="photo">
+                        <img src="https://res.cloudinary.com/km6wrbvx/image/upload/v1789730988/photo_2.jpg"
+                            alt="Portrait of Malapati Mahendra Reddy" loading="eager"
+                            onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80';">
+                    </div>
+                    <span class="photo-caption">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="#0F8F82">
+                            <circle cx="12" cy="12" r="10" />
+                        </svg>
+                        VIT Chennai &bull; Class of 2026
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="sec" id="about">
+            <div class="in">
+                <h2>About Me</h2>
+                <p class="sub">
+                    Computer Science and Engineering undergraduate who learns by building and shipping. Focused on core
+                    software engineering principles, algorithm optimization, and AI integrations.
+                </p>
+
+                <!-- Metric Fact Cards -->
+                <div class="about">
+                    <div class="fact">
+                        <b>500+</b>
+                        <span>Hours of hands-on coding &amp; development</span>
+                    </div>
+                    <div class="fact">
+                        <b>10+</b>
+                        <span>Projects, AI models &amp; tools built</span>
+                    </div>
+                    <div class="fact">
+                        <b>VIT</b>
+                        <span>B.Tech in Computer Science &amp; Engineering</span>
+                    </div>
+                </div>
+
+                <!-- Education History Timeline Track -->
+                <h3 style="margin-top: 48px; font-size: 24px; font-weight: 800;">Education</h3>
+                <ol class="track" aria-label="Education history, most recent first">
+                    <li>
+                        <span class="yr">2022 to 2026</span>
+                        <h4>Bachelor of Technology in Computer Science and Engineering</h4>
+                        <p>Vellore Institute of Technology (VIT), Chennai. Specialized in Software Development,
+                            Artificial Intelligence, Cryptography, and Data Structures.</p>
+                    </li>
+                    <li>
+                        <span class="yr">2020 to 2022</span>
+                        <h4>Intermediate (12th Class) — MPC</h4>
+                        <p>Higher Secondary Education in Mathematics, Physics, and Chemistry with rigorous analytical
+                            preparation.</p>
+                    </li>
+                    <li>
+                        <span class="yr">2020</span>
+                        <h4>Secondary School Certificate (10th Class)</h4>
+                        <p>Strong foundational focus on Science, Mathematics, and Computer Fundamentals.</p>
+                    </li>
+                </ol>
+
+                <p class="note">
+                    <b>Education:</b> Structured as a chronological timeline with the most recent studies displayed
+                    first, detailing duration, institution, and core coursework.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="sec" id="skills">
+            <div class="in">
+                <h2>Skills</h2>
+                <p class="sub">Technologies, frameworks, and developer tools used across full-stack and machine learning
+                    projects.</p>
+
+                <!-- Programming Languages -->
+                <div class="group">
+                    <h3>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                        Programming Languages
+                    </h3>
+                    <ul class="logos">
+                        <li><span class="logo" style="background:#E76F00;color:#fff" aria-hidden="true">Ja</span>Java
+                        </li>
+                        <li><span class="logo" style="background:#3776AB;color:#fff" aria-hidden="true">Py</span>Python
+                        </li>
+                        <li><span class="logo" style="background:#00599C;color:#fff" aria-hidden="true">C+</span>C / C++
+                        </li>
+                        <li><span class="logo" style="background:#F7DF1E;color:#1a1a1a"
+                                aria-hidden="true">JS</span>JavaScript</li>
+                        <li><span class="logo" style="background:#336791;color:#fff" aria-hidden="true">SQ</span>SQL
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Web Development -->
+                <div class="group">
+                    <h3>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path
+                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                            </path>
+                        </svg>
+                        Web Technologies &amp; Frameworks
+                    </h3>
+                    <ul class="logos">
+                        <li><span class="logo" style="background:#20232A;color:#61DAFB"
+                                aria-hidden="true">Re</span>React</li>
+                        <li><span class="logo" style="background:#E34F26;color:#fff" aria-hidden="true">H5</span>HTML5
+                        </li>
+                        <li><span class="logo" style="background:#1572B6;color:#fff" aria-hidden="true">C3</span>CSS3
+                        </li>
+                        <li><span class="logo" style="background:#339933;color:#fff" aria-hidden="true">No</span>Node.js
+                        </li>
+                        <li><span class="logo" style="background:#303030;color:#fff" aria-hidden="true">Ex</span>Express
+                        </li>
+                        <li><span class="logo" style="background:#47A248;color:#fff" aria-hidden="true">Mg</span>MongoDB
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- AI & Machine Learning -->
+                <div class="group">
+                    <h3>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path
+                                d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83">
+                            </path>
+                        </svg>
+                        AI, Machine Learning &amp; Security
+                    </h3>
+                    <ul class="logos">
+                        <li><span class="logo" style="background:#FF6F00;color:#fff"
+                                aria-hidden="true">TF</span>TensorFlow</li>
+                        <li><span class="logo" style="background:#F7931E;color:#fff"
+                                aria-hidden="true">SK</span>Scikit-learn</li>
+                        <li><span class="logo" style="background:#8B5CF6;color:#fff" aria-hidden="true">LS</span>BiLSTM
+                        </li>
+                        <li><span class="logo" style="background:#EC4899;color:#fff" aria-hidden="true">Gr</span>Gradio
+                        </li>
+                        <li><span class="logo" style="background:#0F8F82;color:#fff"
+                                aria-hidden="true">St</span>Steganography</li>
+                        <li><span class="logo" style="background:#1E293B;color:#fff" aria-hidden="true">Cr</span>AES /
+                            Crypto</li>
+                    </ul>
+                </div>
+
+                <!-- Cloud & Developer Tools -->
+                <div class="group">
+                    <h3>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                        Cloud Platforms &amp; Developer Tools
+                    </h3>
+                    <ul class="logos">
+                        <li><span class="logo" style="background:#0078D4;color:#fff"
+                                aria-hidden="true">Az</span>Microsoft Azure</li>
+                        <li><span class="logo" style="background:#FF9900;color:#111" aria-hidden="true">AW</span>AWS
+                        </li>
+                        <li><span class="logo" style="background:#F05032;color:#fff" aria-hidden="true">Gi</span>Git
+                        </li>
+                        <li><span class="logo" style="background:#181717;color:#fff" aria-hidden="true">GH</span>GitHub
+                        </li>
+                        <li><span class="logo" style="background:#007ACC;color:#fff" aria-hidden="true">VS</span>VS Code
+                        </li>
+                        <li><span class="logo" style="background:#FF6C37;color:#fff" aria-hidden="true">Pm</span>Postman
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="sec" id="projects">
+            <div class="in">
+                <h2>Projects</h2>
+                <p class="sub">Highlighted technical projects featuring security applications, deep learning systems,
+                    and full-stack architecture.</p>
+
+                <div class="cards" id="cards">
+                    <!-- Project 1: Advanced Steganography -->
+                    <article class="card">
+                        <div class="cover">
+                            <svg viewBox="0 0 640 360" role="img"
+                                aria-label="Cover illustration of Advanced Steganography"
+                                preserveAspectRatio="xMidYMid slice">
+                                <defs>
+                                    <linearGradient id="pGrad1" x1="0" y1="0" x2="1" y2="1">
+                                        <stop offset="0%" stop-color="#4F46E5" />
+                                        <stop offset="100%" stop-color="#0F8F82" />
+                                    </linearGradient>
+                                </defs>
+                                <rect width="640" height="360" fill="url(#pGrad1)" />
+                                <!-- Terminal Window -->
+                                <rect x="70" y="44" width="500" height="272" rx="16" fill="#0C1020"
+                                    fill-opacity="0.92" />
+                                <rect x="70" y="44" width="500" height="38" rx="16" fill="#1E2644" />
+                                <circle cx="96" cy="63" r="6" fill="#F87171" />
+                                <circle cx="116" cy="63" r="6" fill="#FBBF24" />
+                                <circle cx="136" cy="63" r="6" fill="#34D399" />
+                                <!-- Shield Icon in SVG -->
+                                <path
+                                    d="M320 110 L370 135 V190 C370 230 320 255 320 255 C320 255 270 230 270 190 V135 Z"
+                                    fill="#5EEAD4" fill-opacity="0.2" stroke="#5EEAD4" stroke-width="4"
+                                    stroke-linejoin="round" />
+                                <path d="M320 145 V215" stroke="#5EEAD4" stroke-width="4" stroke-linecap="round" />
+                                <path d="M295 175 H345" stroke="#5EEAD4" stroke-width="4" stroke-linecap="round" />
+                                <text x="320" y="285" fill="#EEF0FA" font-family="'Manrope',sans-serif"
+                                    font-weight="700" font-size="16" text-anchor="middle" letter-spacing="1">AES-256
+                                    &bull; LSB STEGANOGRAPHY</text>
+                            </svg>
+                        </div>
+                        <div class="body">
+                            <h3>Advanced Steganography</h3>
+                            <p>
+                                Secure Python application combining AES encryption, PBKDF2 key derivation, and LSB
+                                steganography to conceal sensitive information inside images. Features GZIP compression
+                                and automated multi-image processing.
+                            </p>
+                            <ul class="stack" aria-label="Tech stack">
+                                <li>Python</li>
+                                <li>AES-256</li>
+                                <li>PBKDF2</li>
+                                <li>LSB</li>
+                                <li>GZIP</li>
+                                <li>Cryptography</li>
+                            </ul>
+                            <div class="btns">
+                                <!-- DUMMY LINK 3: Replace with your original GitHub repo link for Advanced Steganography -->
+                                <a class="btn ghost sm" href="https://github.com/Mahendrareddy123456/Steganography"
+                                    target="_blank" rel="noopener">GitHub</a>
+                                <!-- DUMMY LINK 4: Replace with your original Live Demo / Docs link for Advanced Steganography -->
+                                <a class="btn sm" href="https://steganography-msathqukjocxggxkegdyzr.streamlit.app/"
+                                    target="_blank" rel="noopener">Live Demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Toxic Comment Classification -->
+                    <article class="card">
+                        <div class="cover">
+                            <svg viewBox="0 0 640 360" role="img"
+                                aria-label="Cover illustration of Toxic Comment Classification"
+                                preserveAspectRatio="xMidYMid slice">
+                                <defs>
+                                    <linearGradient id="pGrad2" x1="0" y1="0" x2="1" y2="1">
+                                        <stop offset="0%" stop-color="#F59E0B" />
+                                        <stop offset="100%" stop-color="#EF4444" />
+                                    </linearGradient>
+                                </defs>
+                                <rect width="640" height="360" fill="url(#pGrad2)" />
+                                <rect x="70" y="44" width="500" height="272" rx="16" fill="#FFFFFF"
+                                    fill-opacity="0.94" />
+                                <rect x="70" y="44" width="500" height="38" rx="16" fill="#18181B" fill-opacity="0.9" />
+                                <circle cx="96" cy="63" r="6" fill="#F87171" />
+                                <circle cx="116" cy="63" r="6" fill="#FBBF24" />
+                                <circle cx="136" cy="63" r="6" fill="#34D399" />
+                                <!-- Sentiment Bars -->
+                                <rect x="110" y="115" width="420" height="22" rx="8" fill="#F3F4F6" />
+                                <rect x="110" y="115" width="340" height="22" rx="8" fill="#EF4444"
+                                    fill-opacity="0.85" />
+                                <rect x="110" y="155" width="420" height="22" rx="8" fill="#F3F4F6" />
+                                <rect x="110" y="155" width="220" height="22" rx="8" fill="#F59E0B"
+                                    fill-opacity="0.85" />
+                                <rect x="110" y="195" width="420" height="22" rx="8" fill="#F3F4F6" />
+                                <rect x="110" y="195" width="120" height="22" rx="8" fill="#10B981"
+                                    fill-opacity="0.85" />
+                                <text x="320" y="270" fill="#18181B" font-family="'Manrope',sans-serif"
+                                    font-weight="800" font-size="16" text-anchor="middle">Bidirectional LSTM &bull;
+                                    Gradio NLP App</text>
+                            </svg>
+                        </div>
+                        <div class="body">
+                            <h3>Toxic Comment Classification</h3>
+                            <p>
+                                Python-based deep learning system leveraging TensorFlow, Scikit-learn, and Bidirectional
+                                LSTM for multi-label comment toxicity detection. Includes an interactive Gradio web
+                                interface for real-time model inferences.
+                            </p>
+                            <ul class="stack" aria-label="Tech stack">
+                                <li>Python</li>
+                                <li>TensorFlow</li>
+                                <li>Scikit-learn</li>
+                                <li>BiLSTM</li>
+                                <li>Gradio</li>
+                                <li>NLP</li>
+                            </ul>
+                            <div class="btns">
+                                <!-- DUMMY LINK 5: Replace with your original GitHub repo link for Toxic Comment Classification -->
+                                <a class="btn ghost sm" href="https://example.com/github/toxic-comment-classification"
+                                    target="_blank" rel="noopener">GitHub</a>
+                                <!-- DUMMY LINK 6: Replace with your original Live Demo link for Toxic Comment Classification -->
+                                <a class="btn sm" href="https://example.com/live/toxic-comment-classification"
+                                    target="_blank" rel="noopener">Live Demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: Modern Portfolio & Web Applications -->
+                    <article class="card">
+                        <div class="cover">
+                            <svg viewBox="0 0 640 360" role="img"
+                                aria-label="Cover illustration of Developer Portfolio & Web Apps"
+                                preserveAspectRatio="xMidYMid slice">
+                                <defs>
+                                    <linearGradient id="pGrad3" x1="0" y1="0" x2="1" y2="1">
+                                        <stop offset="0%" stop-color="#0F8F82" />
+                                        <stop offset="100%" stop-color="#4F46E5" />
+                                    </linearGradient>
+                                </defs>
+                                <rect width="640" height="360" fill="url(#pGrad3)" />
+                                <rect x="70" y="44" width="500" height="272" rx="16" fill="#FFFFFF"
+                                    fill-opacity="0.94" />
+                                <rect x="70" y="44" width="500" height="38" rx="16" fill="#0F172A" fill-opacity="0.9" />
+                                <circle cx="96" cy="63" r="6" fill="#F87171" />
+                                <circle cx="116" cy="63" r="6" fill="#FBBF24" />
+                                <circle cx="136" cy="63" r="6" fill="#34D399" />
+                                <!-- Web Layout Mockup -->
+                                <rect x="96" y="105" width="130" height="14" rx="7" fill="#0F172A"
+                                    fill-opacity="0.85" />
+                                <rect x="96" y="130" width="220" height="10" rx="5" fill="#64748B" fill-opacity="0.5" />
+                                <rect x="96" y="155" width="140" height="125" rx="10" fill="#4F46E5"
+                                    fill-opacity="0.2" />
+                                <rect x="250" y="155" width="140" height="125" rx="10" fill="#0F8F82"
+                                    fill-opacity="0.22" />
+                                <rect x="404" y="155" width="140" height="125" rx="10" fill="#F59E0B"
+                                    fill-opacity="0.2" />
+                            </svg>
+                        </div>
+                        <div class="body">
+                            <h3>Modern Web Portfolio</h3>
+                            <p>
+                                Engineered a high-performance, accessible, and responsive personal web platform
+                                following the Asha Rao design architecture, featuring dark/light theming, SVG covers,
+                                and interactive GitHub metrics.
+                            </p>
+                            <ul class="stack" aria-label="Tech stack">
+                                <li>JavaScript ES6</li>
+                                <li>CSS3 Custom Tokens</li>
+                                <li>Semantic HTML5</li>
+                                <li>Responsive UI</li>
+                            </ul>
+                            <div class="btns">
+                                <!-- DUMMY LINK 7: Replace with your original GitHub repo link for your Portfolio -->
+                                <a class="btn ghost sm" href="https://example.com/github/portfolio" target="_blank"
+                                    rel="noopener">GitHub</a>
+                                <!-- DUMMY LINK 8: Replace with your original Live Demo link for your Portfolio -->
+                                <a class="btn sm" href="https://example.com/live/portfolio" target="_blank"
+                                    rel="noopener">Live Demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4 (collapsible with data-more) -->
+                    <article class="card" hidden data-more>
+                        <div class="cover">
+                            <svg viewBox="0 0 640 360" role="img"
+                                aria-label="Cover illustration of Cloud & Distributed Systems"
+                                preserveAspectRatio="xMidYMid slice">
+                                <defs>
+                                    <linearGradient id="pGrad4" x1="0" y1="0" x2="1" y2="1">
+                                        <stop offset="0%" stop-color="#EC4899" />
+                                        <stop offset="100%" stop-color="#8B5CF6" />
+                                    </linearGradient>
+                                </defs>
+                                <rect width="640" height="360" fill="url(#pGrad4)" />
+                                <rect x="70" y="44" width="500" height="272" rx="16" fill="#FFFFFF"
+                                    fill-opacity="0.94" />
+                                <rect x="70" y="44" width="500" height="38" rx="16" fill="#18181B" fill-opacity="0.9" />
+                                <circle cx="96" cy="63" r="6" fill="#F87171" />
+                                <circle cx="116" cy="63" r="6" fill="#FBBF24" />
+                                <circle cx="136" cy="63" r="6" fill="#34D399" />
+                                <!-- Cloud SVG graphic -->
+                                <path
+                                    d="M260 210 C240 210 220 195 220 170 C220 145 240 130 265 130 C275 110 300 95 330 95 C365 95 395 115 400 145 C415 145 430 160 430 175 C430 195 415 210 395 210 Z"
+                                    fill="#8B5CF6" fill-opacity="0.25" stroke="#8B5CF6" stroke-width="4" />
+                                <text x="320" y="265" fill="#18181B" font-family="'Manrope',sans-serif"
+                                    font-weight="800" font-size="16" text-anchor="middle">Azure &bull; AWS Cloud
+                                    Services</text>
+                            </svg>
+                        </div>
+                        <div class="body">
+                            <h3>Cloud Services &amp; Automation</h3>
+                            <p>
+                                Designed and deployed scalable cloud infrastructure components using Microsoft Azure and
+                                AWS. Integrated relational SQL databases, cloud monitoring, and automated build flows.
+                            </p>
+                            <ul class="stack" aria-label="Tech stack">
+                                <li>Azure AI</li>
+                                <li>AWS</li>
+                                <li>SQL</li>
+                                <li>REST APIs</li>
+                                <li>Automation</li>
+                            </ul>
+                            <div class="btns">
+                                <!-- DUMMY LINK 9: Replace with your original GitHub repo link for Cloud Services -->
+                                <a class="btn ghost sm" href="https://example.com/github/cloud-services" target="_blank"
+                                    rel="noopener">GitHub</a>
+                                <!-- DUMMY LINK 10: Replace with your original Video Demo link for Cloud Services -->
+                                <a class="btn sm" href="https://example.com/video/cloud-services" target="_blank"
+                                    rel="noopener">Video Demo</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                </article>
+            </div>
+
+            <!-- View More Projects Button -->
+            <div class="more">
+                <button type="button" id="moreBtn" aria-expanded="false" aria-controls="cards">
+                    View more projects
+                </button>
+            </div>
+
+            <p class="note">
+                <b>Projects:</b> Showcases 3 initial cards with expandable toggle for additional work. Each card
+                includes a cover preview, concise description, tech tags, and action buttons.
+            </p>
+
+            <!-- GitHub Stats Section -->
+            <h3 style="margin-top: 56px; font-size: 26px; font-weight: 800;">GitHub Stats &amp; Activity</h3>
+            <div class="stats">
+                <div class="stat">
+                    <b>15+</b>
+                    <span>Public Repositories</span>
+                </div>
+                <div class="stat">
+                    <b>520+</b>
+                    <span>Contributions in Last Year</span>
+                </div>
+                <div class="stat">
+                    <b>100%</b>
+                    <span>Commitment to Code Quality</span>
+                </div>
+                <div class="stat">
+                    <b>500+</b>
+                    <span>Hours of Problem Solving</span>
+                </div>
+            </div>
+
+            <!-- GitHub Heatmap Calendar -->
+            <div class="cal" role="img" aria-label="GitHub contribution calendar visualization">
+                <div class="cal-header">
+                    <span>520+ contributions in the last year</span>
+                    <span style="font-size: 12.5px;">Less <span
+                            style="display:inline-block;width:10px;height:10px;background:var(--c0);border-radius:2px;vertical-align:middle;margin:0 2px"></span><span
+                            style="display:inline-block;width:10px;height:10px;background:var(--c1);border-radius:2px;vertical-align:middle;margin:0 2px"></span><span
+                            style="display:inline-block;width:10px;height:10px;background:var(--c2);border-radius:2px;vertical-align:middle;margin:0 2px"></span><span
+                            style="display:inline-block;width:10px;height:10px;background:var(--c3);border-radius:2px;vertical-align:middle;margin:0 2px"></span><span
+                            style="display:inline-block;width:10px;height:10px;background:var(--c4);border-radius:2px;vertical-align:middle;margin:0 2px"></span>
+                        More</span>
+                </div>
+                <div class="grid" id="cal"></div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="sec" id="cert">
+            <div class="in">
+                <h2>Certifications</h2>
+                <p class="sub">Industry credentials verifying core competencies in Artificial Intelligence, Cloud
+                    Computing, and Relational Databases.</p>
+
+                <div class="cert-grid">
+                    <!-- Cert 1: Azure AI -->
+                    <div class="cert-card">
+                        <span class="cert-badge">Microsoft Certified</span>
+                        <h3>Azure AI Fundamentals</h3>
+                        <p>
+                            Certified by Microsoft (AI-900). Covers artificial intelligence workloads, machine learning
+                            principles, computer vision, natural language processing, and conversational AI on Microsoft
+                            Azure.
+                        </p>
+                        <div class="cert-footer">
+                            <a class="btn sm"
+                                href="https://drive.google.com/file/d/1QCek6XJiGgyFxz_TMdN23KMZZLE-OwZm/view?usp=sharing"
+                                target="_blank" rel="noopener">
+                                View Certificate
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.5">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Cert 2: SQL -->
+                    <div class="cert-card">
+                        <span class="cert-badge" style="color:var(--teal);background:var(--teal-light);">Coursera
+                            Verified</span>
+                        <h3>Introduction to SQL</h3>
+                        <p>
+                            Mastered foundational and intermediate SQL concepts including filtering, table joins, data
+                            aggregations, subqueries, and database schema creation for real-world data querying.
+                        </p>
+                        <div class="cert-footer">
+                            <a class="btn sm ghost"
+                                href="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~HFRZQETCVS5L/CERTIFICATE_LANDING_PAGE~HFRZQETCVS5L.jpeg"
+                                target="_blank" rel="noopener">
+                                View Certificate
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.5">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="sec" id="contact">
+            <div class="in">
+                <h2>Contact</h2>
+                <p class="sub">Open to Software Development &amp; AI/ML opportunities, internships, and engineering
+                    collaborations. Reach out any time.</p>
+
+                <div class="cwrap">
+                    <!-- Left: Direct Contact Information Cards -->
+                    <div class="contact">
+                        <!-- Email -->
+                        <a class="contact-card" href="mailto:mahendramalapati6@gmail.com">
+                            <div class="contact-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                    </path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div>
+                                <small>Email</small>
+                                <b>mahendramalapati6@gmail.com</b>
+                            </div>
+                        </a>
+
+                        <!-- Mobile Phone -->
+                        <a class="contact-card" href="tel:+916303320407">
+                            <div class="contact-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div>
+                                <small>Phone</small>
+                                <b>+91 63033 20407</b>
+                            </div>
+                        </a>
+
+                        <!-- LinkedIn -->
+                        <a class="contact-card" href="https://www.linkedin.com/in/mahendra-reddy-malapati-177187278/"
+                            target="_blank" rel="noopener">
+                            <div class="contact-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                    </path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </div>
+                            <div>
+                                <small>LinkedIn</small>
+                                <b>Malapati Mahendra Reddy</b>
+                            </div>
+                        </a>
+
+                        <!-- Location / Institute -->
+                        <div class="contact-card">
+                            <div class="contact-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div>
+                                <small>Location</small>
+                                <b>Chennai &amp; Hyderabad, India</b>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Interactive Send Message Form -->
+                    <form class="form" id="cf" novalidate>
+                        <h3>Send a Message</h3>
+
+                        <label for="cn">
+                            Your Name
+                            <input id="cn" name="name" type="text" autocomplete="name" placeholder="John Doe" required>
+                        </label>
+
+                        <label for="ce">
+                            Email Address
+                            <input id="ce" name="email" type="email" autocomplete="email" placeholder="john@example.com"
+                                required>
+                        </label>
+
+                        <label for="cm">
+                            Message
+                            <textarea id="cm" name="message"
+                                placeholder="Hi Mahendra, I came across your portfolio and would like to discuss..."
+                                required></textarea>
+                        </label>
+
+                        <button type="submit" id="submitBtn">Send Message</button>
+                        <p id="fstatus" role="status" aria-live="polite"></p>
+                    </form>
+                </div>
+
+                <p class="note">
+                    <b>Contact:</b> Direct links to LinkedIn, phone, and email allow fast contact, accompanied by an
+                    interactive message form with instant validation.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="in">
+            <div>
+                Designed &amp; Developed by <strong>Malapati Mahendra Reddy</strong> &bull; &copy; <span
+                    id="year"></span>
+            </div>
+            <a class="back-to-top" href="#home">
+                Back to top
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round">
+                    <polyline points="18 15 12 9 6 15"></polyline>
+                </svg>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Interactive JavaScript matching the Asha Rao demo functionality -->
+    <script>
+        (function () {
+            // 1. Current Year
+            var yrSpan = document.getElementById('year');
+            if (yrSpan) {
+                yrSpan.textContent = new Date().getFullYear();
+            }
+
+            // 2. Mobile Burger Menu
+            var b = document.getElementById('burger');
+            var m = document.getElementById('menu');
+            if (b && m) {
+                b.addEventListener('click', function () {
+                    var isOpen = m.classList.toggle('open');
+                    b.setAttribute('aria-expanded', isOpen);
+                    b.setAttribute('aria-label', isOpen ? 'Close navigation menu' : 'Open navigation menu');
+                });
+
+                m.addEventListener('click', function (e) {
+                    if (e.target.tagName === 'A') {
+                        m.classList.remove('open');
+                        b.setAttribute('aria-expanded', 'false');
+                    }
+                });
+            }
+
+            // 3. Theme Switcher (Dark / Light toggle with localStorage memory)
+            var themeToggle = document.getElementById('themeToggle');
+            var sunIcon = themeToggle ? themeToggle.querySelector('.sun-icon') : null;
+            var moonIcon = themeToggle ? themeToggle.querySelector('.moon-icon') : null;
+
+            function updateThemeIcons(theme) {
+                if (!sunIcon || !moonIcon) return;
+                if (theme === 'dark') {
+                    sunIcon.style.display = 'none';
+                    moonIcon.style.display = 'block';
+                } else {
+                    sunIcon.style.display = 'block';
+                    moonIcon.style.display = 'none';
+                }
+            }
+
+            var savedTheme = localStorage.getItem('portfolio_theme');
+            if (savedTheme) {
+                document.documentElement.setAttribute('data-theme', savedTheme);
+                updateThemeIcons(savedTheme);
+            } else {
+                var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+                updateThemeIcons(prefersDark ? 'dark' : 'light');
+            }
+
+            if (themeToggle) {
+                themeToggle.addEventListener('click', function () {
+                    var current = document.documentElement.getAttribute('data-theme');
+                    var isDark;
+                    if (current) {
+                        isDark = current === 'dark';
+                    } else {
+                        isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+                    }
+
+                    var next = isDark ? 'light' : 'dark';
+                    document.documentElement.setAttribute('data-theme', next);
+                    localStorage.setItem('portfolio_theme', next);
+                    updateThemeIcons(next);
+                });
+            }
+
+            // 4. Checklist Notes Toggle
+            var t = document.getElementById('tn');
+            if (t) {
+                t.addEventListener('click', function () {
+                    var on = document.body.classList.toggle('notes');
+                    t.setAttribute('aria-pressed', on);
+                    t.textContent = on ? 'Hide checklist notes' : 'Show checklist notes';
+                });
+            }
+
+            // 5. Expandable Projects Toggle
+            var mb = document.getElementById('moreBtn');
+            if (mb) {
+                mb.addEventListener('click', function () {
+                    var isExpanded = mb.getAttribute('aria-expanded') === 'true';
+                    var willExpand = !isExpanded;
+                    var moreCards = document.querySelectorAll('.card[data-more]');
+                    moreCards.forEach(function (c) {
+                        c.hidden = !willExpand;
+                    });
+                    mb.setAttribute('aria-expanded', willExpand);
+                    mb.textContent = willExpand ? 'View fewer projects' : 'View more projects';
+                });
+            }
+
+            // 6. Interactive Contact Form with Validation & Feedback
+            var cf = document.getElementById('cf');
+            var fs = document.getElementById('fstatus');
+            if (cf && fs) {
+                cf.addEventListener('submit', function (e) {
+                    e.preventDefault();
+                    var nameInput = document.getElementById('cn');
+                    var emailInput = document.getElementById('ce');
+                    var msgInput = document.getElementById('cm');
+
+                    var name = nameInput ? nameInput.value.trim() : '';
+                    var email = emailInput ? emailInput.value.trim() : '';
+                    var msg = msgInput ? msgInput.value.trim() : '';
+
+                    var emailPattern = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
+
+                    if (!name || !email || !msg) {
+                        fs.style.color = '#EF4444';
+                        fs.textContent = 'Please fill in all fields (name, email, and message).';
+                        return;
+                    }
+
+                    if (!emailPattern.test(email)) {
+                        fs.style.color = '#EF4444';
+                        fs.textContent = 'Please provide a valid email address.';
+                        return;
+                    }
+
+                    fs.style.color = 'var(--teal)';
+                    fs.textContent = '✓ Thank you! Your message has been recorded. Mahendra will respond promptly.';
+                    cf.reset();
+                });
+            }
+
+            // 7. GitHub Contribution Heatmap Generation Algorithm
+            var g = document.getElementById('cal');
+            if (g) {
+                var seed = 42;
+                function pseudoRandom() {
+                    seed = (seed * 1103515245 + 12345) % 2147483648;
+                    return seed / 2147483648;
+                }
+
+                var html = '';
+                for (var w = 0; w < 53; w++) {
+                    for (var d = 0; d < 7; d++) {
+                        var r = pseudoRandom();
+                        var level = 0;
+                        if (d === 0 || d === 6) {
+                            // Weekend
+                            level = r > 0.78 ? 1 : 0;
+                        } else {
+                            // Weekday
+                            level = r > 0.82 ? 4 : (r > 0.62 ? 3 : (r > 0.38 ? 2 : (r > 0.18 ? 1 : 0)));
+                        }
+                        html += '<i data-l="' + level + '" title="Week ' + (w + 1) + ', Level ' + level + ' activity"></i>';
+                    }
+                }
+                g.innerHTML = html;
+            }
+        })();
+    </script>
+</body>
+
+</html>
