@@ -1,9 +1,3 @@
-/* ==========================================================================
-   Design System & Tokens - Matching Asha Rao Portfolio Architecture
-   One modern font (Manrope), refined indigo/teal/amber accents, 
-   light/dark modes, high contrast, clean typography, responsive layout.
-   ========================================================================== */
-
 :root {
   --bg: #F7F8FC;
   --surface: #FFFFFF;
@@ -134,7 +128,10 @@ body {
   transition: background-color 0.25s ease, color 0.25s ease;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   margin: 0;
   line-height: 1.2;
   color: var(--ink);
@@ -145,7 +142,8 @@ p {
   margin: 0;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -948,10 +946,21 @@ section {
   transform: scale(1.4);
 }
 
-.cal .grid i[data-l="1"] { background: var(--c1); }
-.cal .grid i[data-l="2"] { background: var(--c2); }
-.cal .grid i[data-l="3"] { background: var(--c3); }
-.cal .grid i[data-l="4"] { background: var(--c4); }
+.cal .grid i[data-l="1"] {
+  background: var(--c1);
+}
+
+.cal .grid i[data-l="2"] {
+  background: var(--c2);
+}
+
+.cal .grid i[data-l="3"] {
+  background: var(--c3);
+}
+
+.cal .grid i[data-l="4"] {
+  background: var(--c4);
+}
 
 .cal small {
   display: block;
@@ -1285,7 +1294,10 @@ footer .in {
   html {
     scroll-behavior: auto;
   }
-  *, *::before, *::after {
+
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
