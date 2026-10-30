@@ -685,8 +685,8 @@ section {
 /* Project Cards */
 .cards {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
   margin-top: 32px;
 }
 
@@ -726,22 +726,98 @@ section {
 }
 
 .card .body {
-  padding: 22px;
+  padding: 24px;
   display: flex;
   flex-direction: column;
   gap: 12px;
   flex: 1;
 }
 
-.card h3 {
-  font-size: 21px;
+.card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.card-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
   font-weight: 800;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--teal);
+  background: var(--teal-soft);
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  width: fit-content;
+}
+
+.card-badge.amber {
+  color: var(--amber);
+  background: var(--amber-soft);
+}
+
+.card-badge.pink {
+  color: #db2777;
+  background: rgba(236, 72, 153, 0.12);
+}
+
+.card-badge.blue {
+  color: #2563eb;
+  background: rgba(37, 99, 235, 0.12);
+}
+
+.card-date {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--indigo);
+  background: var(--indigo-soft);
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  white-space: nowrap;
+}
+
+.card h3 {
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 1.3;
 }
 
 .card p {
   color: var(--muted);
-  font-size: 15.5px;
+  font-size: 15px;
   line-height: 1.55;
+}
+
+.card-points {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 4px 0 6px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.card-points li {
+  position: relative;
+  padding-left: 18px;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.card-points li::before {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 8px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--indigo);
 }
 
 .stack {
